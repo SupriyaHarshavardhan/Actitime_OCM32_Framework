@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-27T22:44:13 IST" name="Command line suite" finished-at="2021-04-27T22:44:13 IST" duration-ms="83">
+    <groups>
+    </groups>
+    <test started-at="2021-04-27T22:44:13 IST" name="Command line test" finished-at="2021-04-27T22:44:13 IST" duration-ms="83">
+      <class name="practiceddt.CreateUserTest">
+        <test-method signature="userTest()[pri:0, instance:practiceddt.CreateUserTest@2a70a3d8]" started-at="2021-04-27T22:44:13 IST" name="userTest" finished-at="2021-04-27T22:44:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTest -->
+      </class> <!-- practiceddt.CreateUserTest -->
+      <class name="practiceddt.ReadDataFromPropertyFileTest">
+        <test-method signature="readDataTest()[pri:0, instance:practiceddt.ReadDataFromPropertyFileTest@289d1c02]" started-at="2021-04-27T22:44:13 IST" name="readDataTest" finished-at="2021-04-27T22:44:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataTest -->
+      </class> <!-- practiceddt.ReadDataFromPropertyFileTest -->
+      <class name="practiceddt.CreateCustomerTest">
+        <test-method signature="ReadTheDataFromXMLFile(org.testng.xml.XmlTest)[pri:0, instance:practiceddt.CreateCustomerTest@75881071]" started-at="2021-04-27T22:44:13 IST" name="ReadTheDataFromXMLFile" finished-at="2021-04-27T22:44:13 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@839037f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadTheDataFromXMLFile -->
+      </class> <!-- practiceddt.CreateCustomerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

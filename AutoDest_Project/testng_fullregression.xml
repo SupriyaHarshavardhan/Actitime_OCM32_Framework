@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.vtigerTests.organization.TL_18_CreateOrganizationWithShippingAddress_Test"/>
+      <class name="com.crm.vtigerTests.organization.Tl_20_CreatingOrganizationWithBillingAdress_Test"/>
+      
+      <class name="com.crm.vtigerTests.organization.TL_17CreatingOrganizationCopyingBillingAdressSelectOptionIsEnableOrNot_Test"/>
+      <class name="com.crm.vtigerTests.organization.TL_16_CreatingOrganizationCopyingShippingAddressSelectoptionisenablesornot_Test"/>
+      <class name="com.crm.vtigerTests.organization.TL_19CreatingOrganizationWithOutShippingAdress_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

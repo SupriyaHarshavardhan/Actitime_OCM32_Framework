@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test" preserve-order='true'>
+    <classes>
+      <class name="com.crm.vtigerTests.organization.TL_18_CreateOrganizationWithShippingAddress_Test">
+      <methods>
+               <include name="createorgwithShipping"/>
+          </methods>
+      </class> 
+      
+      <class name="com.crm.vtigerTests.organization.TL_16_CreatingOrganizationCopyingShippingAddressSelectoptionisenablesornot_Test">
+      <methods>
+               <include name="createshippingbutton"/>
+          </methods>
+      </class> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
